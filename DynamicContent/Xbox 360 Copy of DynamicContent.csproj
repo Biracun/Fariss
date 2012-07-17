@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{4BFFF6F5-79AA-4BBF-988D-5132BCCDEED6}</ProjectGuid>
+    <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">Xbox 360</Platform>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Platformer</RootNamespace>
+    <AssemblyName>DynamicContent</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
+    <XnaPlatform>Xbox 360</XnaPlatform>
+    <XnaProfile>HiDef</XnaProfile>
+    <XnaCrossPlatformGroupID>1e066794-6b05-426e-b19e-4a77303c09ef</XnaCrossPlatformGroupID>
+    <XnaOutputType>Library</XnaOutputType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|Xbox 360' ">
+    <OutputPath>bin\Xbox 360\Debug</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineConstants>DEBUG;TRACE;XBOX;XBOX360</DefineConstants>
+    <XnaCompressContent>true</XnaCompressContent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|Xbox 360' ">
+    <OutputPath>bin\Xbox 360\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineConstants>TRACE;XBOX;XBOX360</DefineConstants>
+    <XnaCompressContent>true</XnaCompressContent>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Compile Include="Background.cs" />
+    <Compile Include="Blade.cs" />
+    <Compile Include="Block.cs" />
+    <Compile Include="Bouncer.cs" />
+    <Compile Include="BouncySpikeball.cs" />
+    <Compile Include="Bullet.cs" />
+    <Compile Include="Button.cs" />
+    <Compile Include="AutoLift.cs" />
+    <Compile Include="AutoSpin.cs" />
+    <Compile Include="Boss.cs" />
+    <Compile Include="BossDoor.cs" />
+    <Compile Include="Child.cs" />
+    <Compile Include="ClimbablePlatform.cs" />
+    <Compile Include="Collectable.cs" />
+    <Compile Include="FlyingBoss.cs" />
+    <Compile Include="HurtyPlatform.cs" />
+    <Compile Include="IHurty.cs" />
+    <Compile Include="Pickup.cs" />
+    <Compile Include="PickupSpecial.cs" />
+    <Compile Include="PlayerLoad.cs" />
+    <Compile Include="SaveGame.cs" />
+    <Compile Include="ShipButton.cs" />
+    <Compile Include="ShipPart.cs" />
+    <Compile Include="Spike.cs" />
+    <Compile Include="Wheel.cs" />
+    <Compile Include="IDamaging.cs" />
+    <Compile Include="ShooterBoss.cs" />
+    <Compile Include="UpAndDownLift.cs" />
+    <Compile Include="FallingPlatform.cs" />
+    <Compile Include="GameSwitches.cs" />
+    <Compile Include="SavePoint.cs" />
+    <Compile Include="IClibmableThing.cs" />
+    <Compile Include="IPassableBottom.cs" />
+    <Compile Include="PassableBottomPlatform.cs" />
+    <Compile Include="ProjectionRectangle.cs" />
+    <Compile Include="FerrisWheel.cs" />
+    <Compile Include="LinkedTrapdoor.cs" />
+    <Compile Include="Trapdoor.cs" />
+    <Compile Include="Door.cs" />
+    <Compile Include="Enemy.cs" />
+    <Compile Include="Parent.cs" />
+    <Compile Include="DynamicObject.cs" />
+    <Compile Include="GameObject.cs" />
+    <Compile Include="IPickable.cs" />
+    <Compile Include="Level.cs" />
+    <Compile Include="Platform.cs" />
+    <Compile Include="PressurePad.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Shield.cs" />
+    <Compile Include="Water.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DebugView 3.2 XNA\Xbox 360 Copy of DebugView 3.2 XNA.csproj">
+      <Project>{28980582-9e81-497f-a575-bc5c751711fc}</Project>
+      <Name>Xbox 360 Copy of DebugView 3.2 XNA</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Farseer Physics Engine 3.2 XNA\Xbox 360 Copy of Farseer Physics 3.2 XNA.csproj">
+      <Project>{13ef8401-2145-4c89-9888-8035cdc59673}</Project>
+      <Name>Xbox 360 Copy of Farseer Physics 3.2 XNA</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Avatar">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Game">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.GamerServices">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Graphics">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Net">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Storage">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Video">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Xact">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net" />
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Serialization, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
+  <!--
+      To modify your build process, add your task inside one of the targets below and uncomment it. 
+      Other similar extension points exist, see Microsoft.Common.targets.
+      <Target Name="BeforeBuild">
+      </Target>
+      <Target Name="AfterBuild">
+      </Target>
+    -->
+</Project>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- TODO: replace this Asset with your own XML asset data. -->
+  <Asset Type="Platformer.Level">
+    <StaticObjects>
+      <Item Type="Platformer.Platform">
+        <Position>0 -8</Position>
+        <Dimensions>20 1</Dimensions>
+        <Rotation>0</Rotation>
+        <Friction>1.0</Friction>
+        <Restitution>0.5</Restitution>
+      </Item>
+      <Item Type="Platformer.Blade">
+        <Position>0 -6</Position>
+        <Dimensions>5 1</Dimensions>
+        <Rotation>0</Rotation>
+        <Friction>1.0</Friction>
+        <Restitution>0.5</Restitution>
+      </Item>
+    </StaticObjects>
+    <DynamicObjects>
+      
+    </DynamicObjects>
+  </Asset>
+</XnaContent>

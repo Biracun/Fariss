@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+		<Asset Type="Platformer.Level">
+      <Name></Name>
+		<Backgrounds>
+			<Item Type="Platformer.Background">
+				<ID>0</ID>
+				<Velocity>0 0</Velocity>
+				<Position>0 0</Position>
+			</Item>
+		</Backgrounds>
+		<StaticObjects>
+      <Item Type="Platformer.Platform">
+        <Textures>4</Textures>
+        <TextureMode>TILE</TextureMode>
+        <Position>0 -7.5</Position>
+        <Dimensions>40 2</Dimensions>
+        <CollideWithPlayer>true</CollideWithPlayer>
+        <Rotation>0</Rotation>
+        <Friction>1.0</Friction>
+        <Restitution>0.5</Restitution>
+      </Item>
+      <Item Type="Platformer.Platform">
+        <Textures>5</Textures>
+        <TextureMode>TILE</TextureMode>
+        <Position>0 -11</Position>
+        <Dimensions>40 5</Dimensions>
+        <CollideWithPlayer>true</CollideWithPlayer>
+        <Rotation>0</Rotation>
+        <Friction>1.0</Friction>
+        <Restitution>0.5</Restitution>
+      </Item>
+		</StaticObjects>
+		<DynamicObjects>
+      <Item Type="Platformer.UpAndDownLift">
+        <Textures>13</Textures>
+        <TextureMode>TILE</TextureMode>
+        <Position>15 -6.5</Position>
+        <Dimensions>4 0.5</Dimensions>
+        <CollideWithPlayer>true</CollideWithPlayer>
+        <ID>-1</ID>
+        <IgnoreIDs></IgnoreIDs>
+        <ChildIDs>4</ChildIDs>
+        <Pause>1500</Pause>
+        <Speed>3</Speed>
+        <MinY>-6.5</MinY>
+        <MaxY>5</MaxY>
+      </Item>
+      <Item Type="Platformer.FlyingBoss">
+        <Textures>43</Textures>
+        <TextureMode>STRETCH</TextureMode>
+        <Position>5 -3</Position>
+        <Dimensions>4 2</Dimensions>
+        <CollideWithPlayer>true</CollideWithPlayer>
+        <ID>11</ID>
+        <IgnoreIDs></IgnoreIDs>
+        <ChildIDs></ChildIDs>
+        <TouchDamage>15</TouchDamage>
+      </Item>
+      <Item Type="Platformer.PickupSpecial">
+        <Textures>36</Textures>
+        <TextureMode>STRETCH</TextureMode>
+        <Position>0 0</Position>
+        <Dimensions>2 2 </Dimensions>
+        <CollideWithPlayer>true</CollideWithPlayer>
+        <ID>-1</ID>
+        <IgnoreIDs></IgnoreIDs>
+        <ChildIDs>11</ChildIDs>
+        <PlayerIndex>Three</PlayerIndex>
+        <GameSwitch>GOT_COG</GameSwitch>
+        <Dead>false</Dead>
+      </Item>
+		</DynamicObjects>
+	</Asset>
+</XnaContent>

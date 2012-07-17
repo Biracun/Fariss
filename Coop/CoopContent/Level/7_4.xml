@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+		<Asset Type="Platformer.Level">
+      <Name></Name>
+		<Backgrounds>
+			<Item Type="Platformer.Background">
+				<ID>0</ID>
+				<Velocity>0 0</Velocity>
+				<Position>0 0</Position>
+			</Item>
+		</Backgrounds>
+		<StaticObjects>
+      <Item Type="Platformer.Platform">
+        <Textures>17</Textures>
+        <TextureMode>TILE</TextureMode>
+        <Position>0 13.65</Position>
+        <Dimensions>50 12</Dimensions>
+        <CollideWithPlayer>true</CollideWithPlayer>
+        <Rotation>0.3</Rotation>
+        <Friction>1.0</Friction>
+        <Restitution>0.5</Restitution>
+      </Item>
+		</StaticObjects>
+		<DynamicObjects>
+		</DynamicObjects>
+	</Asset>
+</XnaContent>

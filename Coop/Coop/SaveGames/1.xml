@@ -1,0 +1,31 @@
+﻿<?xml version="1.0"?>
+<SaveGame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PlayerOne>
+    <Position>
+      <X>15</X>
+      <Y>-4.07244825</Y>
+    </Position>
+    <Health>100</Health>
+    <MaxHealth>100</MaxHealth>
+    <NextScreen>
+      <X>6</X>
+      <Y>3</Y>
+    </NextScreen>
+    <Collectables>JUMP</Collectables>
+  </PlayerOne>
+  <PlayerTwo>
+    <Position>
+      <X>15</X>
+      <Y>0</Y>
+    </Position>
+    <Health>100</Health>
+    <MaxHealth>100</MaxHealth>
+    <NextScreen>
+      <X>6</X>
+      <Y>3</Y>
+    </NextScreen>
+    <Collectables>GRAB</Collectables>
+  </PlayerTwo>
+  <Health>100</Health>
+  <GameSwitches>INITIAL_CUTSCENE_COMPLETE BOSS_1_DEFEATED</GameSwitches>
+</SaveGame>

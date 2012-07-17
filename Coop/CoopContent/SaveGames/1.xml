@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+<Asset Type="Platformer.XMLPlayerSerializerList">
+    <Item Type="Platformer.XMLPlayerSerializer">
+      <Health>100</Health>
+      <MaxHealth>100</MaxHealth>
+      <WorldPosition>3 0</WorldPosition>
+      <Position>15 -4</Position>
+      <Collectables></Collectables>
+    </Item>
+    <Item Type="Platformer.XMLPlayerSerializer">
+      <Health>100</Health>
+      <MaxHealth>100</MaxHealth>
+      <WorldPosition>3 0</WorldPosition>
+      <Position>15 -4</Position>
+      <Collectables></Collectables>
+    </Item>
+  </Asset>
+</XnaContent>

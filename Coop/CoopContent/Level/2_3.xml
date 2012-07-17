@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+		<Asset Type="Platformer.Level">
+      <Name></Name>
+		<Backgrounds>
+			<Item Type="Platformer.Background">
+				<ID>0</ID>
+				<Velocity>0 0</Velocity>
+				<Position>0 0</Position>
+			</Item>
+		</Backgrounds>
+		<StaticObjects>
+      <Item Type="Platformer.Platform">
+        <Textures>16</Textures>
+        <TextureMode>TILE</TextureMode>
+        <Position>14 -8.9</Position>
+        <Dimensions>12 0.9</Dimensions>
+        <CollideWithPlayer>true</CollideWithPlayer>
+        <Rotation>0</Rotation>
+        <Friction>1.0</Friction>
+        <Restitution>0.5</Restitution>
+      </Item>
+      <Item Type="Platformer.Platform">
+        <Textures>17</Textures>
+        <TextureMode>TILE</TextureMode>
+        <Position>14 -10.8</Position>
+        <Dimensions>12 3</Dimensions>
+        <CollideWithPlayer>true</CollideWithPlayer>
+        <Rotation>0</Rotation>
+        <Friction>1.0</Friction>
+        <Restitution>0.5</Restitution>
+      </Item>
+      <Item Type="Platformer.Platform">
+        <Textures>16</Textures>
+        <TextureMode>TILE</TextureMode>
+        <Position>14.3 -9.7</Position>
+        <Dimensions>14 1</Dimensions>
+        <CollideWithPlayer>true</CollideWithPlayer>
+        <Rotation>-0.3875</Rotation>
+        <Friction>1.0</Friction>
+        <Restitution>0.5</Restitution>
+      </Item>
+      <Item Type="Platformer.Platform">
+        <Textures>17</Textures>
+        <TextureMode>TILE</TextureMode>
+        <Position>12.05 -10.5</Position>
+        <Dimensions>10 3</Dimensions>
+        <CollideWithPlayer>true</CollideWithPlayer>
+        <Rotation>-0.3875</Rotation>
+        <Friction>1.0</Friction>
+        <Restitution>0.5</Restitution>
+      </Item>
+      <Item Type="Platformer.HurtyPlatform">
+        <Textures>32</Textures>
+        <TextureMode>TILE</TextureMode>
+        <Position>-10 -10.9</Position>
+        <Dimensions>20 1</Dimensions>
+        <CollideWithPlayer>true</CollideWithPlayer>
+        <Hurt>20</Hurt>
+        <Rotation>0</Rotation>
+        <Friction>1.0</Friction>
+        <Restitution>0.5</Restitution>
+      </Item>
+      <Item Type="Platformer.ClimbablePlatform">
+        <Textures>19</Textures>
+        <TextureMode>TILE</TextureMode>
+        <Position>0.4 -10.1</Position>
+        <Dimensions>1 7</Dimensions>
+        <CollideWithPlayer>true</CollideWithPlayer>
+        <Rotation>0</Rotation>
+        <Friction>1.0</Friction>
+        <Restitution>0.5</Restitution>
+      </Item>
+      <Item Type="Platformer.ClimbablePlatform">
+        <Textures>17</Textures>
+        <TextureMode>TILE</TextureMode>
+        <Position>4 -9.85</Position>
+        <Dimensions>8 5</Dimensions>
+        <CollideWithPlayer>true</CollideWithPlayer>
+        <Rotation>0</Rotation>
+        <Friction>1.0</Friction>
+        <Restitution>0.5</Restitution>
+      </Item>
+      <Item Type="Platformer.ClimbablePlatform">
+        <Textures>16</Textures>
+        <TextureMode>TILE</TextureMode>
+        <Position>4 -7.05</Position>
+        <Dimensions>8 0.9</Dimensions>
+        <CollideWithPlayer>true</CollideWithPlayer>
+        <Rotation>0</Rotation>
+        <Friction>1.0</Friction>
+        <Restitution>0.5</Restitution>
+      </Item>
+      <Item Type="Platformer.Platform">
+        <Textures>16</Textures>
+        <TextureMode>TILE</TextureMode>
+        <Position>4 -6.6</Position>
+        <Dimensions>8 0.1</Dimensions>
+        <CollideWithPlayer>true</CollideWithPlayer>
+        <Rotation>0</Rotation>
+        <Friction>1.0</Friction>
+        <Restitution>0.5</Restitution>
+      </Item>
+      <Item Type="Platformer.ClimbablePlatform">
+        <Textures>27</Textures>
+        <TextureMode>TILE</TextureMode>
+        <Position>-17.4 -10.1</Position>
+        <Dimensions>5 7</Dimensions>
+        <CollideWithPlayer>true</CollideWithPlayer>
+        <Rotation>0</Rotation>
+        <Friction>1.0</Friction>
+        <Restitution>0.5</Restitution>
+      </Item>
+      <Item Type="Platformer.Platform">
+        <Textures>16</Textures>
+        <TextureMode>TILE</TextureMode>
+        <Position>-17.5 -6.6</Position>
+        <Dimensions>5 0.1</Dimensions>
+        <CollideWithPlayer>true</CollideWithPlayer>
+        <Rotation>0</Rotation>
+        <Friction>1.0</Friction>
+        <Restitution>0.5</Restitution>
+      </Item>
+      <Item Type="Platformer.ClimbablePlatform">
+        <Textures>16</Textures>
+        <TextureMode>TILE</TextureMode>
+        <Position>-17.5 -7.05</Position>
+        <Dimensions>5 0.9</Dimensions>
+        <CollideWithPlayer>true</CollideWithPlayer>
+        <Rotation>0</Rotation>
+        <Friction>1.0</Friction>
+        <Restitution>0.5</Restitution>
+      </Item>
+      <Item Type="Platformer.ClimbablePlatform">
+        <Textures>17</Textures>
+        <TextureMode>TILE</TextureMode>
+        <Position>-17.5 -9.85</Position>
+        <Dimensions>5 5</Dimensions>
+        <CollideWithPlayer>true</CollideWithPlayer>
+        <Rotation>0</Rotation>
+        <Friction>1.0</Friction>
+        <Restitution>0.5</Restitution>
+      </Item>
+      <Item Type="Platformer.Platform">
+        <Textures>12</Textures>
+        <TextureMode>TILE</TextureMode>
+        <Position>-16.2 1.25</Position>
+        <Dimensions>0.4 4</Dimensions>
+        <CollideWithPlayer>true</CollideWithPlayer>
+        <Rotation>0</Rotation>
+        <Friction>1.0</Friction>
+        <Restitution>0.5</Restitution>
+      </Item>
+      <Item Type="Platformer.Platform">
+        <Textures>12</Textures>
+        <TextureMode>TILE</TextureMode>
+        <Position>-16.8 1.25</Position>
+        <Dimensions>0.4 4</Dimensions>
+        <CollideWithPlayer>true</CollideWithPlayer>
+        <Rotation>0</Rotation>
+        <Friction>1.0</Friction>
+        <Restitution>0.5</Restitution>
+      </Item>
+      <Item Type="Platformer.Platform">
+        <Textures>34</Textures>
+        <TextureMode>TILE</TextureMode>
+        <Position>-18 4</Position>
+        <Dimensions>8 1</Dimensions>
+        <CollideWithPlayer>true</CollideWithPlayer>
+        <Rotation>-0.25</Rotation>
+        <Friction>1.0</Friction>
+        <Restitution>0.5</Restitution>
+      </Item>
+    </StaticObjects>
+    <DynamicObjects>
+      <Item Type="Platformer.PressurePad">
+        <Textures>21 24</Textures>
+        <TextureMode>TILE</TextureMode>
+        <Position>4 -6.9</Position>
+        <Dimensions>3 1</Dimensions>
+        <CollideWithPlayer>true</CollideWithPlayer>
+        <ID>6</ID>
+        <IgnoreIDs></IgnoreIDs>
+        <Pressed>false</Pressed>
+      </Item>
+      <Item Type="Platformer.Wheel">
+        <Textures>31</Textures>
+        <TextureMode>STRETCH</TextureMode>
+        <Position>-12.5 -8</Position>
+        <Dimensions>4 4</Dimensions>
+        <CollideWithPlayer>true</CollideWithPlayer>
+        <ID>-1</ID>
+        <IgnoreIDs></IgnoreIDs>
+        <Rotation>0</Rotation>
+        <Friction>1000</Friction>
+        <Restitution>0.5</Restitution>
+      </Item>
+      <Item Type="Platformer.Door">
+        <Textures>7</Textures>
+        <TextureMode>TILE</TextureMode>
+        <Position>-16.51 -3.5</Position>
+        <Dimensions>0.15 6</Dimensions>
+        <CollideWithPlayer>true</CollideWithPlayer>
+        <ID>-1</ID>
+        <IgnoreIDs></IgnoreIDs>
+        <ChildIDs>6 22</ChildIDs>
+        <MaxPosition>-16.51 0</MaxPosition>
+        <AllTriggersRequired>false</AllTriggersRequired>
+      </Item>
+      <Item Type="Platformer.Block">
+        <Textures>33</Textures>
+        <TextureMode>TILE</TextureMode>
+        <Position>-17.5 -6</Position>
+        <Dimensions>1 1</Dimensions>
+        <CollideWithPlayer>true</CollideWithPlayer>
+        <ID>-1</ID>
+        <IgnoreIDs></IgnoreIDs>
+        <Rotation>0</Rotation>
+        <Friction>1.0</Friction>
+        <Restitution>0.5</Restitution>
+      </Item>
+		</DynamicObjects>
+	</Asset>
+</XnaContent>
